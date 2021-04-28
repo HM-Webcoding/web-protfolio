@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+#header-part{
+    background: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 48%;
+    float: left;
+}
+.header-left img{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.header-right h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 10px;
+}
+.header-right h2{
+    font-size: 40px;
+}
+.header-right h2 span{
+    color: #FFB627;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(45deg, #FFC021, #19D6D5);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.about-right{
+    padding-left: 30px;
+}
